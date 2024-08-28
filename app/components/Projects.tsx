@@ -7,19 +7,24 @@ const projects = [
     description:
       "Demonstrative website for an E-Sports research group made with Next.js.",
     link: "https://enhance-esports.vercel.app/",
+    technologies: ["Next.js", "React", "Tailwind"],
     color: "bg-zinc-800",
   },
   {
     title: "Theadless",
     description: "Social media for artists using the MERN Stack with Vite.",
     link: "#",
+    technologies: ["Vite", "Tanstack Query", "React", "Tailwind", "Daisy UI"],
     color: "bg-zinc-800",
   },
 ];
 
 export default function Projects() {
   return (
-    <section className="container flex flex-col justify-center max-w-2xl mx-auto h-dvh snap-center">
+    <section
+      className="container flex flex-col justify-center max-w-2xl mx-auto h-dvh"
+      id="projects"
+    >
       <h2
         className={`${GeistMono.className} dark:text-zinc-100 text-zinc-900 font-bold mb-8 px-0 text-xl text-center md:text-left md:px-8 md:text-3xl`}
       >
